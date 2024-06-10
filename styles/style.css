@@ -42,7 +42,6 @@ body {
 img {
     display: block;
     margin: 0 auto;
-    border: #bee3de;
     border-radius: 2%;
     border: 2px solid rgb(0, 112, 118);
 }
