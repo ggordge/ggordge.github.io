@@ -1,0 +1,57 @@
+html {
+    font-size: 15px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 4px 4px 1px rgb(24, 24, 32);
+    font-size: 40px;
+    text-align: center;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+html {
+    background-color: rgb(56, 56, 73);
+    color: rgb(174, 200, 224);
+}
+
+a {
+    color: rgb(0, 242, 255);
+}
+
+body {
+    width: 700px;
+    margin: 0 auto;
+    background-color: rgb(28, 38, 49);
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(0, 90, 95);
+    border-radius: 2%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: #bee3de;
+    border-radius: 2%;
+    border: 2px solid rgb(0, 112, 118);
+}
+
+button {
+    color: #bee3de;
+    background-color: rgb(0, 112, 118);
+    font-weight: 900;
+    border-color: #37b8a7;
+    display: block;
+    margin: 0 auto;
+}
