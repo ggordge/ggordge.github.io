@@ -4,6 +4,8 @@ html {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal; 
+    background-color: rgb(56, 56, 73);
+    color: rgb(174, 200, 224);
 }
 
 h1 {
@@ -19,11 +21,6 @@ li {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
-}
-
-html {
-    background-color: rgb(56, 56, 73);
-    color: rgb(174, 200, 224);
 }
 
 a {
