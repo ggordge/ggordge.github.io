@@ -1,5 +1,12 @@
 const myImage = document.querySelector("img");
 
+myImage.onmouseover = () => {
+    myImage.style.border = "2px solid rgb(0, 242, 255)";
+}
+myImage.onmouseout = () => {
+    myImage.style.border = "2px solid rgb(0, 112, 118)";
+}
+
 myImage.onclick = () => {
     const mySrc = myImage.getAttribute("src");
     if (mySrc === "images/arny.gif") {
@@ -17,7 +24,7 @@ function setUserName() {
     const myName = prompt("Please enter your name.");
     if (!myName) {
         setUserName();
-    } else {
+    } else  {
     localStorage.setItem("name", myName);
     myHeading.textContent = `Arnie is cumming, ${myName}`;
     }
@@ -33,3 +40,4 @@ if (!localStorage.getItem("name")) {
 myButton.onclick = () => {
     setUserName();
 }
+
